@@ -7,6 +7,12 @@
 
     <link rel="stylesheet" href="style.css" />
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
@@ -19,19 +25,49 @@
     </div>
 
     <!-- Navigation -->
-    <nav class="nav">
-      <ul class="nav-list">
-        <li><a href="#home" class="nav-link active">Home</a></li>
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#skills" class="nav-link">Skills</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
-        <li><a href="#blog" class="nav-link">Blog</a></li>
-        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
-        <li class="theme-toggle-container">
-          <button class="theme-toggle">🌓</button>
-        </li>
-      </ul>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="theme-toggle-container">
+              <button class="theme-toggle">🌓</button>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
     <!-- Home Section -->
@@ -140,7 +176,9 @@
                 >Green-Catalyst</a
               >
             </h3>
-            <p class="project-description">Be the Catalyst for a Greener Tomorrow</p>
+            <p class="project-description">
+              Be the Catalyst for a Greener Tomorrow
+            </p>
           </div>
           <div class="project-card" data-category="web" data-scroll>
             <img src="bloom.jpg" alt="Pet" class="project-img" />
@@ -149,7 +187,9 @@
                 >Bloom's Interactive Hub</a
               >
             </h3>
-            <p class="project-description">Explore your thinking level and grow smarter every day!</p>
+            <p class="project-description">
+              Explore your thinking level and grow smarter every day!
+            </p>
           </div>
           <div class="project-card" data-category="design" data-scroll>
             <img src="spotify.jpg" alt="Spotify" class="project-img" />
@@ -198,9 +238,7 @@
         <h2 class="section-title">Client Testimonials</h2>
         <div class="testimonials-grid">
           <div class="testimonial-card" data-scroll>
-            <p class="testimonial-text">
-              "No comments yet..."
-            </p>
+            <p class="testimonial-text">"No comments yet..."</p>
             <p class="testimonial-author">- None</p>
           </div>
           <!-- Add more testimonials -->
@@ -238,5 +276,10 @@
     </section>
 
     <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
