@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jahida Khanom Jinar</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="icon" href="profile.jpg" />
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div class="loader-wrapper">
+      <div class="loader"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#blog" class="nav-link">Blog</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li class="theme-toggle-container">
+          <button class="theme-toggle">🌓</button>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="section home-section" id="home">
+      <div class="section-content" data-scroll>
+        <h1 class="home-title">Jahida Khanom Jinar</h1>
+        <p class="home-subtitle">Full Stack Developer</p>
+        <div class="home-buttons">
+          <a href="#projects" class="btn">View Work</a>
+          <a href="Jinar CV.pdf" download class="btn btn-outline">
+            <i class="fas fa-download"></i> Download Resume
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="section-content" data-scroll>
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <img src="profile.jpg" alt="Jahida Khanom Jinar" class="about-img" />
+          <div class="about-text">
+            <p>
+              A passionate developer for building web applications. Currently,
+              studying B.sc in Educational Technology and Engineering.
+            </p>
+            <p>When I'm not coding, I enjoy drawing and photography.</p>
+            <p>
+              You can visit my GitHub profile
+              <a href="https://github.com/JahidaJinar">Here.</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="section-content" data-scroll>
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-container">
+          <span class="skill">HTML5</span>
+          <span class="skill">CSS3</span>
+          <span class="skill">JavaScript</span>
+          <span class="skill">React</span>
+          <span class="skill">Node.js</span>
+          <span class="skill">Python</span>
+          <span class="skill">SQL</span>
+          <span class="skill">Git</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="section-content" data-scroll>
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="game">Game</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="design">Clone Design</button>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card" data-category="game" data-scroll>
+            <img src="img1.jpg" alt="Guessing-Fruit-Name" class="project-img" />
+            <h3 class="project-title">
+              <a href="https://jahidajinar.github.io/Guessing-Fruit-Name/"
+                >Guessing Fruit Name</a
+              >
+            </h3>
+            <p class="project-description">Using HTML, CSS & JS</p>
+          </div>
+          <div class="project-card" data-category="game" data-scroll>
+            <img src="bear.jpg" alt="Whack-a-Mole" class="project-img" />
+            <h3 class="project-title">
+              <a href="https://jahidajinar.github.io/Whack-a-Mole/"
+                >Whack-a-Mole</a
+              >
+            </h3>
+            <p class="project-description">Using HTML, CSS & JS</p>
+          </div>
+          <div class="project-card" data-category="web" data-scroll>
+            <img src="waffle.jpg" alt="Waffle-Shop" class="project-img" />
+            <h3 class="project-title">
+              <a href="https://jahidajinar.github.io/Waffle-Shop/"
+                >Waffle Shop</a
+              >
+            </h3>
+            <p class="project-description">Using HTML & CSS.</p>
+          </div>
+          <div class="project-card" data-category="web" data-scroll>
+            <img src="pet.jpg" alt="Pet" class="project-img" />
+            <h3 class="project-title">
+              <a href="https://jahidajinar.github.io/Pet-Adoption/"
+                >Pet Adoption Page</a
+              >
+            </h3>
+            <p class="project-description">Using HTML & CSS.</p>
+          </div>
+          <div class="project-card" data-category="web" data-scroll>
+            <img src="green.jpeg" alt="green" class="project-img" />
+            <h3 class="project-title">
+              <a href=" https://jahidajinar.github.io/Green-Catalyst/"
+                >Green-Catalyst</a
+              >
+            </h3>
+            <p class="project-description">Be the Catalyst for a Greener Tomorrow</p>
+          </div>
+          <div class="project-card" data-category="web" data-scroll>
+            <img src="bloom.jpg" alt="Pet" class="project-img" />
+            <h3 class="project-title">
+              <a href="https://jahidajinar.github.io/Bloom-s-Interactive-Hub/"
+                >Bloom's Interactive Hub</a
+              >
+            </h3>
+            <p class="project-description">Explore your thinking level and grow smarter every day!</p>
+          </div>
+          <div class="project-card" data-category="design" data-scroll>
+            <img src="spotify.jpg" alt="Spotify" class="project-img" />
+            <h3 class="project-title">
+              <a href="https://jahidajinar.github.io/Spotify-Page-Demo/"
+                >Spotify Clone Page</a
+              >
+            </h3>
+            <p class="project-description">Using HTML & CSS.</p>
+          </div>
+          <div class="project-card" data-category="design" data-scroll>
+            <img src="insta.jpg" alt="insta" class="project-img" />
+            <h3 class="project-title">
+              <a href="https://jahidajinar.github.io/Instagram-Clone-Profile/"
+                >Instagram Clone Profile</a
+              >
+            </h3>
+            <p class="project-description">Using HTML & CSS.</p>
+          </div>
+          <!-- Add more projects with data-category -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="section blog-section" id="blog">
+      <div class="section-content" data-scroll>
+        <h2 class="section-title">Latest Posts</h2>
+        <div class="blog-grid">
+          <article class="blog-post" data-scroll>
+            <h3>Getting Started with Node JS</h3>
+            <p class="post-date">April 23, 2025</p>
+            <p class="post-excerpt">
+              Learn the fundamentals of back end development...
+            </p>
+            <a href="#" class="read-more">Read More</a>
+          </article>
+          <!-- Add more blog posts -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials-section" id="testimonials">
+      <div class="section-content" data-scroll>
+        <h2 class="section-title">Client Testimonials</h2>
+        <div class="testimonials-grid">
+          <div class="testimonial-card" data-scroll>
+            <p class="testimonial-text">
+              "No comments yet..."
+            </p>
+            <p class="testimonial-author">- None</p>
+          </div>
+          <!-- Add more testimonials -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="section-content" data-scroll>
+        <h2 class="section-title">Get In Touch</h2>
+        <form class="contact-form">
+          <div class="form-group">
+            <input type="text" placeholder="Name" class="form-input" required />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              placeholder="Email"
+              class="form-input"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              placeholder="Message"
+              class="form-textarea"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
